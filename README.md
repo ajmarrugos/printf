@@ -15,6 +15,5 @@ The format string is composed of zero or more directives.
 '%'
 
 ### Project Team
-
-Alberto Marrugo S
-Juan Manuel Muñoz
+	Alberto Marrugo S
+	Juan Manuel Muñoz

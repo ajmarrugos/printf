@@ -8,14 +8,15 @@
 
 int _printf(const char *format, ...);
 /**
- * struct arg_s - structure of ags
- * @f: argument option
- * @op: Function to operate
- **/
+* struct arg_s - structure of ags
+* @f: argument option
+* @op: Function to operate
+**/
+
 typedef struct arg_s
 {
-	char op;
-	char* (*f)();
+char op;
+char* (*f)();
 } op_t;
 
 char* (*get_op_func(char *s))(va_list);

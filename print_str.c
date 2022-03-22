@@ -2,10 +2,10 @@
 
 /**
 * replace_string - Replace string in case of NULL arg
-* @F_string: destiny
-* @In_string: fountain
+* @F_string: Destiny
+* @In_string: Source 
 * Return: string
-*/
+**/
 
 char *replace_string(char *F_string, char *In_string)
 {
@@ -24,7 +24,7 @@ char *replace_string(char *F_string, char *In_string)
 * print_str - Prints the string
 * @lst: va_list pointer
 * Return: return pointer
-*/
+**/
 
 char *print_str(va_list lst)
 {
@@ -37,7 +37,6 @@ char *print_str(va_list lst)
 	string = va_arg(lst, char *);
 	if (string == NULL)
 	{
-		/* 6 for (null) 1 for '\0' */
 		finishV = malloc(sizeof(char) * 7);
 		finishV = replace_string(finishV, "(null)");
 		return (finishV);

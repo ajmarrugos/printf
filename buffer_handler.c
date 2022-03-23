@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
 * buffer_handler - Will concatenate the buffer characters

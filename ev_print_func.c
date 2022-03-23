@@ -15,6 +15,9 @@ print_t pr[] = {
 {"i", print_int},
 {"d", print_int},
 {" %", print_prg},
+{"+ i", prinpint},
+{"+ d", prinpint},
+{" %", print_prg},
 {NULL, NULL},
 };
 int i = 0, j = 0, first_index;

@@ -41,6 +41,8 @@ i += ev_print_func(format, i + 1);
 } i++;
 }
 else
+for (ibuf = len; ibuf > 1024; ibuf -= 1024)
+;
 buffer_handler(buffer, format[i], ibuf), len++;
 }
 print_buf(buffer, ibuf), free(buffer), va_end(arguments);

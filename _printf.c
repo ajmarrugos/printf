@@ -30,7 +30,7 @@ return (-1);
 }
 else
 {
-function = get_print_func(format, i + 1);
+function = get_print_func(&format, i + 1); /* Aqui corrigio manuela */
 if (function == NULL)
 {
 if (format[i + 1] == ' ' && !format[i + 2])

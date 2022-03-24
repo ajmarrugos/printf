@@ -15,7 +15,10 @@ print_t pr[] = {
 {"i", print_int},
 {"d", print_int},
 {"+ i", prinpint},
+{"+i", prinpint},
 {"+ d", prinpint},
+{"+d", prinpint},
+{"%", print_prg},
 {" %", print_prg},
 {NULL, NULL},
 };

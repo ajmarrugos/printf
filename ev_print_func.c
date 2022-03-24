@@ -14,7 +14,6 @@ print_t pr[] = {
 {"s", print_str},
 {"i", print_int},
 {"d", print_int},
-{" %", print_prg},
 {"+ i", prinpint},
 {"+ d", prinpint},
 {" %", print_prg},
